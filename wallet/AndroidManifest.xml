@@ -4,8 +4,8 @@
     package="de.schildbach.wallet_test"
     android:installLocation="internalOnly"
     android:versionCode="51705"
-    android:versionName="5.17.2" >
-
+    android:versionName="5.17.3" >
+    
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="25"
@@ -24,6 +24,7 @@
     <uses-permission android:name="android.permission.CAMERA" /> <!-- group: CAMERA -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- group: STORAGE -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- group: STORAGE -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- group:security? -->
 
     <uses-feature
         android:name="android.hardware.touchscreen"
